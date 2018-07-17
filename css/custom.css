@@ -1,0 +1,158 @@
+/*BODY*/
+body{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+/*CARDS*/
+.card img{
+    width: 100%;
+    height: 120px;
+}
+
+/* NAV */
+.logo{
+    width: 221px;
+    height: 50px;
+    float: left;
+    font-size: 0;
+    background: url("../img/logobp.png") no-repeat;
+}
+
+.dropdown .dropdown-menu a:hover{
+    background-color: #ccc;
+}
+.navbar{
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.88);
+}
+.whatscard{
+    background: url("../img/whats/whatsbackgroud.png") no-repeat;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1380px;
+    margin-bottom: 15px;
+}
+
+
+/*PARALAX*/
+.header-site{
+    background-image: url("../img/paralax/bauru.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;/*cobre toda area do site pelas beiradas*/
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*.header-site{
+    background-image:
+            linear-gradient(
+            to top right,
+            purple,
+            darkblue
+            ),
+            url("../img/paralax/bauru.jpg");
+    background-blend-mode: lighten;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;/*cobre toda area do site pelas beiradas*/
+   /* background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;*/
+
+.header-site .row a{
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.88);
+}
+.header-site h1, .lead{
+    text-shadow: 0px 5px 5px rgba(0,0,0,0.88);
+}
+
+.content-site{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.88);
+}
+
+.content-clientes{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.88);
+}
+.boxshadow{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
+}
+
+.img-center{
+    background-image: url("../img/paralax/paralax1.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;/*cobre toda area do site pelas beiradas*/
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+.img-center .row{
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.img-center .row a{
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.88);
+}
+
+.img-center h1, h3, .lead{
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.88);
+}
+
+
+.footer-site{
+    background-color: #333333;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-thumbnail{
+    border: None;
+}
+
+.img-thumbnail img{
+    width: 100%;
+    height: 150px;
+}
+
+/*contato*/
+.minimo{
+    font-size: 8pt;
+    position: inherit;
+}
+
+/*TECNOLOGIA SAT*/
+.class-tec{
+    background-image: url("../img/paralax/paralax1.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;/*cobre toda area do site pelas beiradas*/
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.tecnologias{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tecnologias img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.recuo{
+    text-indent: 3em;
+}
+

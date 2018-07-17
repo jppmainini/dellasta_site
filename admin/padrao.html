@@ -1,0 +1,57 @@
+<?php
+session_start();
+include_once("seguranca.php");
+
+echo "Bem Vindo: ".$_SESSION['usuarionome'] .' - ' .$_SESSION['usuarioemail'] .' - ' .$_SESSION['usuarionivel'];
+
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Dellasta Informática</title>
+    <link rel="icon" href="img/icon.png">
+    <!-- CSS MATERIALIZE -->
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+
+    <!-- FONTES -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- CSS PROPRIO -->
+
+</head>
+<body>
+
+<nav> <!-- navbar content here  --> </nav>
+
+<ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+        <div class="background">
+            <img src="images/office.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+        <a href="#name"><span class="white-text name">John Doe</span></a>
+        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+</ul>
+<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+
+
+
+
+<!-- JQUERY -->
+<script src="materialize/js/jquery.min.js"></script>
+<!-- JS MATERILAIZE -->
+
+<script src="materialize/js/materialize.js"></script>
+<script src="materialize/js/custom.js"></script>
+</body>
+</html>
+
