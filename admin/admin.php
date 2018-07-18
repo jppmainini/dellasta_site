@@ -71,9 +71,9 @@ echo "Bem Vindo: ".$_SESSION['usuarionome'] .' - ' .$_SESSION['usuarioemail'] .'
 
 
                 //PAGINAS DE PROCESSAMENTO
-                $pag[100] = "processa\pro_cad_usuarios.php";
-                $pag[101] = "processa\pro_cad_usuarios.php";
-                $pag[102] = "processa\pro_excluir_usuario.php";
+                $pag[100] = "processa/pro_cad_usuarios.php";
+                $pag[101] = "processa/pro_cad_usuarios.php";
+                $pag[102] = "processa/pro_excluir_usuario.php";
                 $pag[103] = "processa/cadusuarios/exclui_multi.php";
                 $pag[104] = "processa/cadusuarios/busca_usuario.php";
 

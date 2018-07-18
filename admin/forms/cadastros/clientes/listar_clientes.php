@@ -17,9 +17,9 @@
             </div>
             <p>
                 <?php
-                    if(isset($_SESSION['cadclientesucess'])){//isset mandar imprimir
-                        echo $_SESSION['cadclientesucess']; //echo imprimir
-                        unset($_SESSION['cadclientesucess']); //unset destoi a variavel
+                    if(isset($_SESSION['cadclisucess'])){//isset mandar imprimir
+                        echo $_SESSION['cadclisucess']; //echo imprimir
+                        unset($_SESSION['cadclisucess']); //unset destoi a variavel
                     }
                 ?>
             </p>
@@ -35,7 +35,7 @@
                         <th>Nome/Razão:</th>
                         <th>Apelido/Fantasia:</th>
                         <th>CPF/CNPJ:</th>
-                        <th>RG/IE:</th>
+                        <th>Email:</th>
                         <th>Ações</th>
                     </tr>
                     </thead>
@@ -44,8 +44,8 @@
                             <tr>
                                 <td><input type="checkbox" class="checkbox m-md-1 checkboxid" name="empcodigo[]" value="<?php echo $linhas['clicodigo']?>" ></td>
                                 <td><?php echo $linhas['clicodigo']?></td>
-                                <td><?php echo $linhas['clipessoa']?></td>
                                 <td><?php echo $linhas['clirazao']?></td>
+                                <td><?php echo $linhas['clifantasia']?></td>
                                 <td><?php echo $linhas['clicpfcnpj']?></td>
                                 <td><?php echo $linhas['cliemail']?></td>
                                 <td>
