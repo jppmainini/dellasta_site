@@ -49,26 +49,29 @@ echo "Bem Vindo: ".$_SESSION['usuarionome'] .' - ' .$_SESSION['usuarioemail'] .'
 <!--  -->
 
 <!-- INICIO CORPO -->
-<div class="container-fluid">
+<div class="container-fluid ">
     <div class="row">
         <!-- INICIO NAVBAR -->
         <?php include_once ('navmenulateral.php')?>
 
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-auto px-2">
             <?php
                 $link = $_GET["link"];
-
+                // DASHBOARD
                 $pag[1] = "bem_vindo.php";
+
+                //CADASTRO DE USUARIOS
                 $pag[2] = "forms/cadastros/usuarios/listar_usuarios.php";
                 $pag[3] = "forms/cadastros/usuarios/cad_usuario.php";
                 $pag[4] = "forms/cadastros/usuarios/ditar_usuario.php";
 
+                //CADASTRO DE EMPRESAS
                 $pag[20] = "forms/cadastros/empresas/listar_empresas.php";
                 $pag[21] = "forms/cadastros/empresas/cad_empresa.php";
 
+                //CADASTRO DE CLIENTES
                 $pag[31] = "forms/cadastros/clientes/listar_clientes.php";
                 $pag[32] = "forms/cadastros/clientes/cad_clientes.php";
-
 
                 //PAGINAS DE PROCESSAMENTO
                 $pag[100] = "processa/pro_cad_usuarios.php";

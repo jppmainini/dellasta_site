@@ -72,8 +72,7 @@
             <div class="form-row">
                 <div class="col-md-2 mb-3">
                     <label for="cep">Cep</label>
-                    <input class="form-control form-control-sm" type="text" name="cep"  id="cep" size="10" maxlength="10" onkeypress="MascaraCep(fmcadclientes.cep)" onblur="pesquisacep(this.value)"placeholder="Cep" />
-                    <input class="form-control form-control-sm" type="text" name="cep"  id="cep" size="10" maxlength="10" onkeypress="MascaraCep(fmcadclientes.cep)" onblur="pesquisacep(this.value);"placeholder="Cep" />
+                    <input class="form-control form-control-sm" type="text" name="cep" value=""  id="cep" size="10" maxlength="10" onkeypress="MascaraCep(fmcadclientes.cep)" onblur="pesquisacep(this.value);" placeholder="Cep" />
                     <div class="invalid-feedback">
                         Preencha esse Campo !!!!
                     </div>
@@ -117,8 +116,8 @@
                     </div>
                 </div>
                 <div class="col-md-1 mb-3">
-                    <label for="id_cliestado">UF</label>
-                    <select class="custom-select form-control form-control-sm" id="id_cliestado" name="uf" required>
+                    <label for="uf">UF</label>
+                    <select class="custom-select form-control form-control-sm" id="uf" name="uf" required>
                         <option value="SP" selected>SP</option>
                         <option value="RJ">RJ</option>
                         <option value="GO">GO</option>

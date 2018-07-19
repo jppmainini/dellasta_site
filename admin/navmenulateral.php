@@ -1,12 +1,14 @@
 <nav class="col-md-2 d-none d-md-block bg-light sidebar ">
     <div class="sidebar-sticky">
         <ul class="nav flex-column">
+<!-- DASHBOARD -->
             <li class="nav-item border-bottom">
                 <a class="nav-link active" href="admin.php?link=1">
                     <span data-feather="home"></span>
                     Dashboard <span class="sr-only">(current)</span>
                 </a>
             </li>
+<!-- PARAMENTROS -->
             <li class="nav-item collapsed border-bottom" data-toggle="collapse" data-target="#usuarios" aria-expanded="false" aria-controls="collapseThree">
                 <a class="nav-link" href="#">
                     <span data-feather="settings"></span>
@@ -25,6 +27,8 @@
                     </div>
                 </div>
             </li>
+
+<!-- CLIENTES -->
             <li class="nav-item collapsed border-bottom" data-toggle="collapse" data-target="#clientes" aria-expanded="false" aria-controls="collapseThree">
                 <a class="nav-link" href="#">
                     <span data-feather="users"></span>
@@ -37,12 +41,14 @@
                                 <a class="nav-link" href="admin.php?link=31"><span><i class="fas fa-users sm" style="padding: 5px"></i></span>Clientes</a>
                             </li>
                             <li class="nav-item border-bottom">
-                                <a class="nav-link" href="#"><span><i class="fas fa-users sm" style="padding: 5px"></i></span>Clientes</a>
+                                <a class="nav-link" href="#"><span><i class="fas fa-key" style="padding: 5px"></i></span>Chave Acesso</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </li>
+
+<!-- ORDENS -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
                     <span data-feather="file"></span>
@@ -68,13 +74,17 @@
                 </a>
             </li>
         </ul>
-        <!-- MOVIMENTOS -->
+
+
+<!-- MOVIMENTOS -->
         <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
             <span>Movimentos</span>
             <a class="d-flex align-items-center text-muted" href="#">
                 <span data-feather="plus-circle"></span>
             </a>
         </h6>
+
+<!--FINANCEIRO-->
         <ul class="nav flex-column ">
             <li class="nav-item collapsed border-bottom hover-item" data-toggle="collapse" data-target="#financeiro" aria-expanded="false" aria-controls="collapseThree">
                 <a class="nav-link" href="#">
@@ -95,26 +105,8 @@
                 </div>
             </li>
         </ul>
-        <ul class="nav flex-column ">
-            <li class="nav-item collapsed border-bottom hover-item" data-toggle="collapse" data-target="#chaveacesso" aria-expanded="false" aria-controls="collapseThree">
-                <a class="nav-link" href="#">
-                    <span data-feather="users"></span>
-                    Liberar Acesso Cliente
-                </a>
-                <div id="chaveacesso" class="collapse hover-item" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body border">
-                        <ul class="nav flex-column">
-                            <li class="nav-item ">
-                                <a class="nav-link" href="admin.php?link=2"><span><i class="fas fa-key" style="padding: 5px"></i></span>Gerar Chave</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><span><i class="fas fa-users sm" style="padding: 5px"></i></span>Contas Á Pagar</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-        </ul>
+
+<!--CONTROLE DE OCORRENCIA-->
         <ul class="nav flex-column ">
             <li class="nav-item collapsed border-bottom hover-item" data-toggle="collapse" data-target="#ocorrencia" aria-expanded="false" aria-controls="collapseThree">
                 <a class="nav-link" href="#">

@@ -35,7 +35,7 @@ $query = mysqli_query($conectar, "insert into clientes(clicodigo, clipessoa, cli
 
 if (mysqli_affected_rows($conectar) != 0){
     $_SESSION['cadclisucess']="<div class=\"alert alert-warning alert-dismissible fade show text-center\" role=\"alert\" id=\"success-alert\">
-                                        Empresa, <strong>$emprazao - </strong> Cadastrado com Sucesso.
+                                        Cliente, <strong>$clirazao - </strong> Cadastrado com Sucesso.
                                         <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">
                                             <span aria-hidden=\"true\">&times;</span>
                                         </button>

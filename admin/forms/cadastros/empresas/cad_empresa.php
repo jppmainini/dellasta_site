@@ -63,7 +63,7 @@
             <div class="form-row">
                 <div class="col-md-2 mb-3">
                     <label for="cep">Cep</label>
-                    <input class="form-control form-control-sm" type="text" name="cep"  id="cep" size="10" maxlength="10" onkeypress="MascaraCep(fmcadempresas.cep)" onblur="pesquisacep(this.value);"placeholder="Cep" />
+                    <input class="form-control form-control-sm" type="text" name="cep"  id="cep" size="10" maxlength="10" onkeypress="MascaraCep(fmcadempresas.cep)" onblur="pesquisacep(this.value);" placeholder="Cep" />
                     <div class="invalid-feedback">
                         Preencha esse Campo !!!!
                     </div>

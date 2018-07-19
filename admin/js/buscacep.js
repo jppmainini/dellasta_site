@@ -1,4 +1,5 @@
-<!-- Adicionando Javascript -->
+<script type="text/javascript" >
+
     function limpa_formulário_cep() {
         //Limpa valores do formulário de cep.
         document.getElementById('rua').value=("");
@@ -66,3 +67,5 @@ function pesquisacep(valor) {
         limpa_formulário_cep();
     }
 };
+
+</script>
